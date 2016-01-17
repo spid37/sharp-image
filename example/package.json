@@ -1,0 +1,14 @@
+{
+  "name": "resize example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "resize-image.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sharp-image": "git+https://github.com/spid37/sharp-image.git"
+  }
+}
