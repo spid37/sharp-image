@@ -7,7 +7,12 @@ var imageData = fs.readFileSync('bird.jpg');
 image = new Image();
 
 image.loadImage(imageData).then(function() {
-  return image.resizeImage(100, 100, false);
+  return image.resizeImage({
+    height: 500,
+    width: 500,
+    isSquare: false,
+    name: "singleResize"
+  });
 }).then(function(data) {
   console.log("Output Resize Single");
   console.log(data);
