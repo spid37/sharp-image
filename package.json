@@ -1,6 +1,6 @@
 {
   "name": "sharp-image",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper for resizing images using sharp",
   "main": "index.js",
   "directories": {
