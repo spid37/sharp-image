@@ -1,11 +1,27 @@
 {
   "name": "sharp-image",
   "version": "0.0.1",
-  "description": "Wrapper for the node js image resizing lib sharp",
+  "description": "Wrapper for resizing images using sharp",
   "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spid37/sharp-image.git"
+  },
   "author": "Nicholas Terrell",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spid37/sharp-image/issues"
+  },
+  "homepage": "https://github.com/spid37/sharp-image#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "lodash": "^4.0.0",
+    "sharp": "^0.12.2"
+  }
 }
