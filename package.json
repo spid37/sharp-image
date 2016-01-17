@@ -1,0 +1,11 @@
+{
+  "name": "sharp-image",
+  "version": "0.0.1",
+  "description": "Wrapper for the node js image resizing lib sharp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Terrell",
+  "license": "ISC"
+}
